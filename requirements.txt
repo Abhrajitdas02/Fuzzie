@@ -1,4 +1,8 @@
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add form
 npm install @prisma/client
+npm i @uploadcare/react-uploader
+npm install @clerk/nextjs
+ngrok config add-authtoken 2cGrMaP7nYrSFZQfe10q1LrFyRa_5edMyQhovMf93gMYz3Qzd
+ngrok http https://localhost:3000
 
