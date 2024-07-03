@@ -6,7 +6,7 @@ import EditorCanvasIconHelper from './editor-canvas-card-icon-hepler'
 import CustomHandle from './custom-handle'
 import { Badge } from '@/components/ui/badge'
 
-import {
+import {  
   Card,
   CardDescription,
   CardHeader,
