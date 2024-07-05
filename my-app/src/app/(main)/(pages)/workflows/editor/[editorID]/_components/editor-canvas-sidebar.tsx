@@ -18,7 +18,7 @@ import {
   onConnections,
   onDragStart,
 } from '@/lib/editor-utils'
-import EditorCanvasIconHelper from './editor-canvas-card-icon-hepler'
+import EditorCanvasIconHelper from './editor-canvas-card-icon-helper'
 import {
   Accordion,
   AccordionContent,
@@ -26,9 +26,8 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion'
 import RenderConnectionAccordion from './render-connection-accordion'
-import RenderOutputAccordion from './render-output-accordian'
-import { useFuzzieStore } from '@/store'
-
+import RenderOutputAccordion from './render-output-accordion'
+import { useFuzzieStore } from '../../../../../../../store'
 type Props = {
   nodes: EditorNodeType[]
 }
